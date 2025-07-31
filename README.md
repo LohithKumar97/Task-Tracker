@@ -4,4 +4,4 @@ This is a simple task tracking web application.
 
 ## 🔗 Project URL
 
-https://github.com/LohithKumar97/Task-Tracker.git
+[https://lohithkumar97.github.io/Task-Tracker/](https://lohithkumar97.github.io/Task-Tracker/)
