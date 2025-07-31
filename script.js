@@ -24,7 +24,6 @@ function renderTasks() {
   const list = document.getElementById("taskList");
   list.innerHTML = "";
 
-  // Separate pending and completed tasks
   const pending = tasks.filter(task => !task.completed);
   const completed = tasks.filter(task => task.completed);
 
@@ -55,7 +54,6 @@ function renderTasks() {
   });
 }
 
-// Optional: Allow Enter key to add task
 document.getElementById("taskInput").addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
     addTask();
